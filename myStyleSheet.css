@@ -1,4 +1,19 @@
+
+
 body {
     background-color: whitesmoke;
     text-align: center;
+}
+
+h1 {
+   
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
 }
