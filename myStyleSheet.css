@@ -4,16 +4,43 @@ body {
     background-color: whitesmoke;
     text-align: center;
 }
-
+img {
+    height: auto;
+    width: 100px;
+    margin-bottom: -1%;
+}
+hr {
+    width: 60%;
+}
 h1 {
    
     font-family: 'Playfair Display', serif;
+font-size: 65px;
+}
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 27px;
 }
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
 }
 
 p {
     font-family: 'Comfortaa', cursive;
+    
+}
+.socials #instagram img {
+    height: auto;
+    width: 30px;
+    margin-left: 80%;
+    margin-top: -3.5%;
+}
+
+.socials #linkedin img {
+    height: auto;
+    width: 50px;
+    margin-left: 85%;
+    margin-top: -4.2%;
 }
