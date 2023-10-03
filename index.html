@@ -62,12 +62,21 @@
 
       <h3>What react actually is</h3>
       <p>React is a open source java script library initially developed by facebook specifically a developer named Jordan Walke. Facebook developed react to be a easy and fast way to develop UI and web applications 
-        by using significantly less code compared to base java script. A key consept of react is simplyfying the design of UI and web apps into managable pices that can be reused.</p>
+        by using significantly less code compared to base java script. A key consept of react is simplyfying the design of UI and web apps into managable pices that can be reused.<br>
+        <br>
+        Some examples of applications that use react are: 
+        <ul>
+          <li>Instagram</li>
+          <li>Spotify</li>
+          <li>Discord</li>
+          <li>Reddit</li>
+        </ul>
+      </p>
 
       <h3>How does is work?</h3>
       <p>In react there are things called components we can think of these as blocks of code containing a pice of the web application. 
-        like a navagation bar would be one component, a profile section would be another component. In these components there are sub components ex if we go back to 
-        the profile component there would be a picture component and a details component that both controll the look, interactivity, and changes that can be made to them. like 
+        like a navagation bar, a profile section would be another component. In these components there are sub components ex if we go back to 
+        the profile component there would be a picture component and a details component that both control the look, interactivity, and changes that can be made to them. like 
         clicking on the profile picture to bring up a larger image or expand the about me paragraph in the details component. 
         This can be viewed as each component having a hierarchy like a sub class in java you have the super class and the sub classes in this case the superclass is the profile component and the sub classes 
         are the picture component and the details component. 
@@ -77,24 +86,48 @@
         It is not seemless and im sure it takes some light modifying but even so it is much much simpler than the ladder option. <br>
         <br>
         Ide like to chow you a image of a component in visual studio code 
-        <img src="Photos/component - react.png" alt="pic" /><br>
+        <img src="Photos/component.png" alt="pic" /><br>
         <br>
-        ex what comp is
+       Above is a standard react component ive set this component to NavagationBar the class and extends principles are the same as in java. 
+       the state object is where we can store our relevant data similar to variables in java. This object can then be called the same way in java using . but think of it as calling an 
+       objects fields/variables that are not set to private so you are calling them directly. 
+       Ex - if we have age in the state object age: 20 then if we call state.age we will get 20, this applies for arrays and other types of data. 
+       moving on the render method we see does exsactly what you think it does it will render all the data to the web page, specifically all the data in between the React.Fragment tags 
+       i use these tags because they are more efficient but you can also use and view them as div tags. 
+       then finally at the bottom we have the exsport default NavigationBar; this exports our class to somthing called the root div in our base html file. 
+       We will go into this root dive in blog 2, for know this will give you an idea of what a component is. 
       </p>
 
       <h3>How is react better than other tools?</h3>
       <p>From what ive seen and reserched react seems to be "better" all techlology is a little subjective in my opinion but from what i gather 
         The reason react is looked at with a lot of positivity is its re-usability and flexibility. Developer teams are not to fond of rigid rules and ristrictions so react not 
         having strict rules for code convetions or file organization means teams that use react are free to set there own standards for code as well as freedom to use react however they want to. <br>
+        But going back to the component part of react another common reason developers like react more than other tools is that you can brake UI elements into blocks 
+        and then update one part of the UI as needed. However there is another plus to this block like way of developing a web application, what if there is a bug or error? 
+        if the error is coming from the navagation bar for example then a developer can simply access the navagation component and take a look at that portion of the application. 
+        The ease of use cannot be overstated you do not need to find each part of the navagation bar in the html, the styling of the navagation bar and the scripts for the interactive elements of the navagation bar 
+        you can just look at the navagation component and everything will be there. This being said naturally the complexity of the bug has to be taken into account a wonderful bug that only effects one portion of the application is 
+        not super realistic however even in the likley outcome of a bug effecting multiple components there is still the relative ease of finding out where this root bug is due to this 
+        built in organisation of the react application. 
 
         <br>
         Developers can use react for a simple button or for an entire application its up to the developer. In addition to this you can integrate components into an exsisting web application 
-      to do this however you will need a content dilivery network 
+      to do this however you will need a content dilivery network (CDN) a bunch or servers that are all linked together. Ill have to dig into this aspect of react further since my knowlage of it is surface level at the moment of writing. 
+      Community is another reason why react is more enticing to new developers, there is a very large community around react that take part in questions/answers and tutorials for new and veteran developers. 
+
+      
+
+
+    
+
 
       </p>
 
       <h3>My plan moving forward with react</h3>
-      <p>jhsdgvskkhvbkjdfs</p>
+      <p>My plan moving forward with react is to build a webpage but focus more on the interactivity and visual aspects of a webpage. The previous web pages ive developed 
+        have been very simple and frankly ugly so i would like to see if with react i can create more satisfying interactivity (like animations) and a more professional look. 
+      I then want to compare the experience with my previous works in blog 2 to give you the reader a good and honest opinion on react. 
+      </p>
     </div>
   </body>
 </html>
