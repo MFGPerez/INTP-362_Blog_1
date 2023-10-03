@@ -31,6 +31,10 @@ h3 {
 
 p {
     font-family: 'Comfortaa', cursive;
+  
+   line-height: 1.8;
+    width: 60%;
+    margin-left: 19%;
     
 }
 .socials #instagram img {
@@ -57,11 +61,22 @@ p {
 #vl {
     border-left: 2px solid rgb(0, 0, 0);
     height: 400px;
-    margin-left: 80%;
-   margin-top: 2%;
+    margin-left: 81%;
+   margin-top: 13%;
 }
+
+#vl2 {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 400px;
+    margin-left: 18%;
+   margin-top: -28%;
+}
+
 .main_content {
-    margin-top: -25%;
+    margin-top: -52%;
+}
+.main_content img{
+   width: 680px;
 }
 
 #about_me  {
