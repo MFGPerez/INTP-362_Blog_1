@@ -84,6 +84,7 @@ p {
 .main_content ul {
   width:fit-content;
   margin-left: 45%;
+  min-height: fit-content;
  }
 #about_me  {
     margin-left: 80%;
