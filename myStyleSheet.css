@@ -3,6 +3,8 @@
 body {
     background-color: whitesmoke;
     text-align: center;
+    min-height: fit-content;
+    
 }
 img {
     height: auto;
