@@ -47,10 +47,18 @@ p {
 }
 
 .socials #linkedin img {
+
   width: 50px;
 
   margin-left: 85%;
   margin-top: -4%;
+
+
+    width: 50px;
+    
+    margin-left: 85%;
+    margin-top: -4%;
+
 }
 
 #vl {
@@ -84,9 +92,21 @@ p {
   margin-top: -27%;
 }
 
+
 #about_me img {
   width: 200px;
 }
 #about_me p {
   font-size: 12px;
 }
+
+    font-size: 12px;
+}
+
+    height: auto;
+    width: 5px;
+    margin-left: 85%;
+    margin-top: -4.2%;
+}
+
+
