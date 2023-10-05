@@ -73,12 +73,16 @@ p {
 }
 
 .main_content {
-    margin-top: -52%;
+    margin-top: -45%;
 }
 .main_content img{
-   width: 700px;
+   width: 750px;
+   height: 445px;
 }
-
+.main_content ul {
+  width:fit-content;
+  margin-left: 45%;
+ }
 #about_me  {
     margin-left: 80%;
     margin-top: -27%;
