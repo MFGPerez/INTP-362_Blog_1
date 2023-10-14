@@ -29,7 +29,6 @@ h3 {
 
 p {
   font-family: "Comfortaa", cursive;
-
   line-height: 1.8;
   width: 60%;
   margin-left: 19%;
@@ -68,11 +67,15 @@ p {
 }
 
 .main_content {
+  font-family: "Comfortaa", cursive;
+  line-height: 1.8;
   margin-top: -30%;
 }
 .main_content img {
   width: 750px;
   height: 445px;
+  min-height: fit-content;
+  min-width: fit-content;
 }
 .main_content ul {
   width: fit-content;
