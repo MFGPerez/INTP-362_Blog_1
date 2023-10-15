@@ -106,43 +106,49 @@
        the state object is where we can store our relevant data similar to variables in java. This object can then be called the same way in java using . but think of it as calling an 
        objects fields/variables that are not set to private so you are calling them directly. 
        Ex - if we have age in the state object age: 20 then if we call state.age we will get 20, this applies for arrays and other types of data. 
-       moving on the render method we see does exsactly what you think it does it will render all the data to the web page, specifically all the data in between the React.Fragment tags 
-       i use these tags because they are more efficient but you can also use and view them as div tags. 
+       moving on the render method does exsactly what you think it does, it will render all the data to the web page specifically all the data in between the React.Fragment tags 
+       I use these tags because they are more efficient but you can also view them as div tags. 
        then finally at the bottom we have the exsport default NavigationBar; this exports our class to somthing called the root div in our base html file. 
-       We will go into this root dive in blog 2, for know this will give you an idea of what a component is. 
+       We will go into this root div in blog 2, a rough summary is that there is a dive called root in our main html file and our entire react program will be stored into that div but for know this should give you an idea of what a component is. 
       </p>
 
       <h3>How is react better than other tools?</h3>
-      <p>From what ive seen and reserched react seems to be "better" all techlology is a little subjective in my opinion but from what i gather 
+      <p>From what ive seen and reserched react seems to be "better" all techlology is a little subjective in my opinion but from what I gather 
         The reason react is looked at with a lot of positivity is its re-usability and flexibility. Developer teams are not to fond of rigid rules and ristrictions so react not 
         having strict rules for code convetions or file organization means teams that use react are free to set there own standards for code as well as freedom to use react however they want to. As a developer you can use the re-usability aspect of react to 
-        add exsisting UI to a new page, if you have a component that has the styling, logic done for a button then you can just copy the component and addit to a new UI or page. Naturally if you work in a company and there is allready thousands of pre made compnents a developer can just plug in what they need for the 
-        UI or web page in a short matter of time.  <br>
-        But going back to the component part of react another common reason developers like react more than other tools is that you can brake UI elements into blocks 
+        add exsisting UI to a new page, for example if you have a component that has the styling, logic done for a button you can just copy the component and add it to a new UI or page. Naturally if you work in a company and there is allready thousands of pre made compnents a developer can just plug in what they need for the <br>
+        UI or web page in a short matter of time. <br>
+         <br>
+        But going back to the component part of react another common reason developers like react more than other tools is that you can brake UI elements into blocks (components)
         and then update one part of the UI as needed. However there is another plus to this block like way of developing a web application, what if there is a bug or error? 
         if the error is coming from the navagation bar for example then a developer can simply access the navagation component and take a look at that portion of the application. 
         The ease of use cannot be overstated you do not need to find each part of the navagation bar in the html, the styling of the navagation bar and the scripts for the interactive elements of the navagation bar 
         you can just look at the navagation component and everything will be there. This being said naturally the complexity of the bug has to be taken into account a wonderful bug that only effects one portion of the application is 
         not super realistic however even in the realistic outcome of a bug effecting multiple components there is still the relative ease of finding out where this root bug is due to this 
-        built in organisation of the react application. 
-
+        built in organisation of the react application.<br>
         <br>
-        Developers can use react for a simple button or for an entire application its up to the developer. In addition to this you can integrate components into an exsisting web application 
-      to do this however you will need a content dilivery network (CDN) a bunch or servers that are all linked together. Ill have to dig into this aspect of react further since my knowlage of it is surface level at the moment of writing. 
+      
+         This is why facebook developed react they wanted a fast and reusable way to create UI and web applications, they have a established brand and asthetic so they can just make 
+        components that fit with there theme and mass produce new projects with the same feel since developers can add the facebook or meta look to any projects. Im sure they could also change the look very quickly since all they would have to change is the 
+        styling of a component and then copy it across there programs via an update. <br>
+        
+        <br>
+      Developers can use react for a simple button or for an entire application its up to the developer. In addition to this you can integrate components into an exsisting web application as we discussed but
+      to do this however you will need a content dilivery network (CDN) a bunch of servers that are all linked together. Ill have to dig into this aspect of react further since my knowlage of it is surface level at the moment of writing. 
       Community is another reason why react is more enticing to new developers, there is a very large community around react that take part in questions/answers and tutorials for new and veteran developers. I know in the videos and other reserch ive done for this blog 
       i immediatly noticed just how much resources there are for react that are  made soley by the community.
       To me this alone can be enough to say its better than other tools since no matter what issue you come across there will be resources to help you out or a wide community you can ask for help. 
-      React is said to have a small learning curve so its much better at getting new developers to learn it that other tools. <br>
-      <br>
+      React is said to have a small learning curve so its much better at getting new developers to learn it that other tools. 
       In react there are also a wide variety of librarys that have pre-built components or front end styling that you can apply to pices of your UI.  
       </p>
 
       <h3>My thoughts on react so far</h3>
-      <p>In my short experience with react so far i found the whole consept of it very easy to understand for example components everything clicked when i viewed 
-        components as blocks on a UI or web page. The way that every component for the web page is in a nice file and that there is only one location for all your styling, functionality for a feature or component is very nice but also a little 
-        new, my main language is java and as you know there is classes and additional files for exceptions , iterators so with react being so organized for lack of a better word 
-        i found myself overthinking and trying to make sure i didnt have to make a new file or make a seperate class with an object to allow me to do somthing in react. I can see that having JavaScript knowlage is very useful for the general syntax of react and that with that knowlage 
-        react would be very easy for somone to get a hang of. Its much different than servlets/JSTL/JSPs in the best way in my opinion. 
+      <p>In my short experience with react so far I found the whole consept of it very easy to understand for example components everything clicked when I viewed 
+        components as blocks on a UI or web page. The way that every component for the web page is in a nice file and that there is only one location for all your styling, functionality for a  component is very appealing but also a little 
+        new, my main language is java and as you know there are classes and additional files for exceptions , iterators etc so with react being so organized for lack of a better word 
+        I found myself overthinking and trying to make sure i didnt have to make a new file or make a seperate class with an object to allow me to do somthing in react. I can see that having JavaScript knowlage is extremely valuable for the general syntax of react with that knowlage 
+        react would be very easy for someone to get a hang of. Its much different than servlets/JSTL/JSPs in the best way in my opinion, there no need to set up a jsp then set up a servlet to develop the functionality then link both together. 
+        You just develop one part of the application all in one place then make a new file to develop another part of the application.  
         
       </p>
       <h3>My plan moving forward with react</h3>
